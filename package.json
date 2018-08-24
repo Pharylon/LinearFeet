@@ -1,8 +1,8 @@
 {
   "name": "linear-feet",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple package for calculating linear feet",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "node test.js"
   },
@@ -20,5 +20,5 @@
     "url": "https://github.com/Pharylon/LinearFeet/issues"
   },
   "homepage": "https://github.com/Pharylon/LinearFeet#readme",
-  "eslint.packageManager": "yarn"
+  "files": ["dist/**/*", "src/**/*"]
 }
