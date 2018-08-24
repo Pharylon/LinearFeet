@@ -1,0 +1,24 @@
+{
+  "name": "linear-feet",
+  "version": "1.0.0",
+  "description": "A simple package for calculating linear feet",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pharylon/LinearFeet.git"
+  },
+  "keywords": [
+    "linear-feet",
+    "shipping"
+  ],
+  "author": "Zachary Shuford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pharylon/LinearFeet/issues"
+  },
+  "homepage": "https://github.com/Pharylon/LinearFeet#readme",
+  "eslint.packageManager": "yarn"
+}
