@@ -21,16 +21,20 @@ const mySkids = {
     stackable: false //This skid cannot be stacked.
 };
 
-console.log(calculate(mySkids) + " linear feet"); //Prints 2.8125 linear feet
+ //Prints 2.8125 linear feet
+console.log(calculate(mySkids) + " linear feet");
 
 //There's also a handy class for creating skids!
 const myOtherSkid = new Skid(1, 60, 45, 45, false);
 
 //The calculate method also accepts an array of skids
-console.log(`These skids combine for ${calculate([mySkids, myOtherSkid])} linear feet`); //These skids combine for 5.3125 linear feet
+//These skids combine for 5.3125 linear feet
+let myArray = [mySkids, myOtherSkid];
+console.log(`All skids total ${calculate(myArray)} linear feet`); 
 
-//The options object allows you to modify how the linear feet are calculated
-const lft = calculate(mySkids, {maxSkidsAcross: 3}); //lft is 3.75, because we're only allowing 3 skids wide
+//The options object allows you to modify 
+//how the linear feet are calculated
+const lft = calculate(mySkids, {maxSkidsAcross: 3});
 ```
 
 
