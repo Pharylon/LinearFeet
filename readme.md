@@ -14,7 +14,7 @@ npm add linear-feet
 import {calculate, Skid} from "linear-feet";
 
 const mySkids = {
-    length: 45, //45 inches ling
+    length: 45, //45 inches long
     width: 20, //45 inches wide
     height: 45, //45 inches tall
     quantity: 3, //3 skids match these dimensions
