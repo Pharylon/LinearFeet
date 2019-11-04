@@ -1,6 +1,6 @@
 # Linear Feet
 
-Linear Feet is a simple NPM package written in typescript for calculating the linear feet of a skid or set of skids, as commonly used in United States LTL (Less than Truck Load) shipping. It doesn't attempt to do any bin packing, because you don't do bin packing when calculating linear feet. Just simple linear feet.
+Linear Feet is a simple NPM package written in typescript for calculating the linear feet of a skid or set of skids, as commonly used in United States LTL (Less than Truck Load) shipping.
 
 ## Installing
 
@@ -15,7 +15,7 @@ import {calculate, Skid} from "linear-feet";
 
 const mySkids = {
     length: 45, //45 inches long
-    width: 20, //45 inches wide
+    width: 20, //20 inches wide
     height: 45, //45 inches tall
     quantity: 3, //3 skids match these dimensions
     stackable: false //This skid cannot be stacked.
